@@ -200,7 +200,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c6094fe10c213404bb87f00cd905f8e5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -349,11 +349,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1702537325}
     m_Modifications:
-    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
-        type: 3}
-      propertyPath: m_Name
-      value: Leg6
-      objectReference: {fileID: 0}
     - target: {fileID: 7563533027302951172, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -424,10 +419,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.39999998
       objectReference: {fileID: 0}
-    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_Name
+      value: Leg6
       objectReference: {fileID: 0}
     - target: {fileID: 463396976590734425, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
@@ -449,6 +444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FootPad
       objectReference: {fileID: 0}
+    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 897d97d9ef53077499bb28e65fe55deb, type: 3}
 --- !u!4 &8862968229678227325 stripped
@@ -464,11 +464,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 393863737}
     m_Modifications:
-    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
-        type: 3}
-      propertyPath: m_Name
-      value: Leg3
-      objectReference: {fileID: 0}
     - target: {fileID: 7563533027302951172, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -524,10 +519,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_Name
+      value: Leg3
       objectReference: {fileID: 0}
     - target: {fileID: 463396976590734425, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
@@ -549,6 +544,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FootPad
       objectReference: {fileID: 0}
+    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 897d97d9ef53077499bb28e65fe55deb, type: 3}
 --- !u!4 &8862968229578648936 stripped
@@ -564,11 +564,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 393863737}
     m_Modifications:
-    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
-        type: 3}
-      propertyPath: m_Name
-      value: Leg4
-      objectReference: {fileID: 0}
     - target: {fileID: 7563533027302951172, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -639,10 +634,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.39999998
       objectReference: {fileID: 0}
-    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_Name
+      value: Leg4
       objectReference: {fileID: 0}
     - target: {fileID: 463396976590734425, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
@@ -664,6 +659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FootPad
       objectReference: {fileID: 0}
+    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 897d97d9ef53077499bb28e65fe55deb, type: 3}
 --- !u!4 &8862968230235839028 stripped
@@ -679,11 +679,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1299437556667556203}
     m_Modifications:
-    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
-        type: 3}
-      propertyPath: m_Name
-      value: Leg2
-      objectReference: {fileID: 0}
     - target: {fileID: 7563533027302951172, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -754,10 +749,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.39999998
       objectReference: {fileID: 0}
-    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_Name
+      value: Leg2
       objectReference: {fileID: 0}
     - target: {fileID: 463396976590734425, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
@@ -779,6 +774,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FootPad
       objectReference: {fileID: 0}
+    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 897d97d9ef53077499bb28e65fe55deb, type: 3}
 --- !u!4 &8862968230823482159 stripped
@@ -794,11 +794,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1702537325}
     m_Modifications:
-    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
-        type: 3}
-      propertyPath: m_Name
-      value: Leg5
-      objectReference: {fileID: 0}
     - target: {fileID: 7563533027302951172, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -854,10 +849,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_Name
+      value: Leg5
       objectReference: {fileID: 0}
     - target: {fileID: 463396976590734425, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
@@ -879,6 +874,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FootPad
       objectReference: {fileID: 0}
+    - target: {fileID: 7877989197055262440, guid: 897d97d9ef53077499bb28e65fe55deb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 897d97d9ef53077499bb28e65fe55deb, type: 3}
 --- !u!4 &8862968230987396599 stripped
@@ -894,11 +894,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1299437556667556203}
     m_Modifications:
-    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
-        type: 3}
-      propertyPath: m_Name
-      value: Leg1
-      objectReference: {fileID: 0}
     - target: {fileID: 7563533027302951172, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -953,6 +948,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463396976590734424, guid: 897d97d9ef53077499bb28e65fe55deb,
+        type: 3}
+      propertyPath: m_Name
+      value: Leg1
       objectReference: {fileID: 0}
     - target: {fileID: 1346978034238891069, guid: 897d97d9ef53077499bb28e65fe55deb,
         type: 3}

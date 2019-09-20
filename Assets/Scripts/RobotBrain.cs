@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class RobotBrain : MonoBehaviour
 {
+    [SerializeField]
+    private Transform m_WalkTarget;
+
     private Steppy[] m_LegPos;
     private bool[] m_UpdatedLegs;
+
+    private BrainState m_CurrentBrainState;
 
     private void Awake()
     {
@@ -20,6 +25,8 @@ public class RobotBrain : MonoBehaviour
             m_UpdatedLegs[1] = false;
             m_UpdatedLegs[2] = false;
         }
+
+        m_CurrentBrainState = new WanderBrainState();
     }
 
     public void AddLeg(Steppy _newLeg, int _arrPos)
@@ -42,13 +49,19 @@ public class RobotBrain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!m_LegPos[0].m_Moving && !m_LegPos[2].m_Moving && !m_LegPos[4].m_Moving)
+        LegUpdate();
+        m_CurrentBrainState.Update(transform, m_WalkTarget);
+    }
+
+    private void LegUpdate()
+    {
+        if (!m_LegPos[0].m_Moving && !m_LegPos[2].m_Moving && !m_LegPos[4].m_Moving)
         {
-            for(int i = 0; i < m_UpdatedLegs.Length; i++)
+            for (int i = 0; i < m_UpdatedLegs.Length; i++)
             {
-                if(!m_UpdatedLegs[i])
+                if (!m_UpdatedLegs[i])
                 {
-                    if(m_LegPos[i*2].UpdateLeg())
+                    if (m_LegPos[i * 2].UpdateLeg())
                     {
                         m_LegPos[(i * 2) + 1].UpdateLeg();
                         m_UpdatedLegs[i] = true;
@@ -56,16 +69,14 @@ public class RobotBrain : MonoBehaviour
                     }
                 }
             }
-            
-            if(m_UpdatedLegs[0] && m_UpdatedLegs[1] && m_UpdatedLegs[2])
+
+            if (m_UpdatedLegs[0] && m_UpdatedLegs[1] && m_UpdatedLegs[2])
             {
-                for(int i = 0; i < m_UpdatedLegs.Length; i++)
+                for (int i = 0; i < m_UpdatedLegs.Length; i++)
                 {
                     m_UpdatedLegs[i] = false;
                 }
             }
         }
     }
-
-
 }
